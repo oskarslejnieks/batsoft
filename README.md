@@ -2,7 +2,7 @@ Steps:
 
 1. Clone this project - https://github.com/oskarslejnieks/batsoft.git
 2. Go to the application folder
-3. Run composer install'
+3. Run composer install
 4. Copy .env.example file to .env on the root folder.
 5. Open .env file and change database name, username, password to corresponding configuration
 6. Run php artisan key:generate
