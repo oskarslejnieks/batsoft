@@ -25,7 +25,7 @@ class TaskController
         $tasks = $this->taskService->getAll();
 
         return response()->json([
-            'tasks' => $tasks,
+            'tasks' => $tasks
         ]);
     }
 }

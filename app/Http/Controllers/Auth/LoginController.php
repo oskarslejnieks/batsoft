@@ -40,9 +40,7 @@ class LoginController extends Controller
 
         $request->session()->regenerate();
 
-        return redirect()
-            ->intended(route('task.index'))
-            ->with('success', 'Welcome, ' . Auth::user()->name . '!');
+        return redirect()->intended(route('task.index'));
     }
 
     /**
